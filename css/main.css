@@ -1,5 +1,9 @@
 * {
-    border: 1px solid red;
+/*    border: 1px solid red;*/
+}
+
+* {
+    box-sizing: border-box;
 }
 
 img {
@@ -7,7 +11,11 @@ img {
 }
 
 /*Upper-section*/
+
 .upper-section {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     padding: 1em;
@@ -27,7 +35,15 @@ img {
 }
 
 .main-nav li {
+    cursor: pointer;
     display: inline-block;
+    margin-right: 10px;
+}
+
+.main-nav li:hover {
+    animation-name: green-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
 
 /* Hero section */
@@ -36,15 +52,19 @@ img {
     display: flex;
     align-items: center;
     padding: 1em;
-    height: 100vw;
+    height: 100vh;
 /*    background: #1a2;*/
 }
 
 .scroll-or-die {
-    opacity: 1;
-    color: white;
+    cursor: pointer;
     
-    animation-name: scroll-icon-animation;
+    animation-name: green-animation;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
+}
+
+.scroll-or-die a{
+    color: #0a0;
+    text-decoration: none;
 }

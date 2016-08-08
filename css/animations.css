@@ -1,12 +1,12 @@
 /* Chrome, Safari, Opera */
-@-webkit-keyframes scroll-icon-animation {
-    from {opacity: 1; color: white;}
+@-webkit-keyframes green-animation {
+    from {opacity: 1; color: #0f0;}
     to {opacity: 0.1; color: #0a0;}
 }
 
 /* Standard syntax */
-@-webkit-keyframes scroll-icon-animation {
-    from {opacity: 1; color: white;}
+@-webkit-keyframes green-animation {
+    from {opacity: 1; color: #0f0;}
     to {opacity: 0.1; color: #0a0;}
 }
 

@@ -69,7 +69,7 @@ img {
     text-decoration: none;
 }
 
-/* Project */
+/* Projects */
 
 .project,
 .project figure,
@@ -113,6 +113,16 @@ img {
     font-size: 90%;
     border-radius: 4px;
     content: "Branding";
-    color: darkcyan;
-    border: 0.5px solid aquamarine;
+    color: #0a0;
+    border: 0.5px solid #0f0;
 }
+
+.tag:hover{
+    cursor: pointer;
+    
+    animation-name: green-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/*Footer*/

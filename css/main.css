@@ -1,1 +1,50 @@
+* {
+    border: 1px solid red;
+}
 
+img {
+    max-width: 100%;
+}
+
+/*Upper-section*/
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+/* Header */
+
+.header-logo img {
+    width: 40vw;
+}
+
+/*Nav section*/
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    height: 100vw;
+/*    background: #1a2;*/
+}
+
+.scroll-or-die {
+    opacity: 1;
+    color: white;
+    
+    animation-name: scroll-icon-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}

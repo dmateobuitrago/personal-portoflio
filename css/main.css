@@ -10,6 +10,19 @@ img {
     max-width: 100%;
 }
 
+/*Green animation*/
+
+.scroll-or-die,
+.tag:hover,
+.main-nav li:hover,
+.main-footer a:hover{
+    cursor: pointer;
+    
+    animation-name: green-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
 /*Upper-section*/
 
 .upper-section {
@@ -40,11 +53,6 @@ img {
     margin-right: 10px;
 }
 
-.main-nav li:hover {
-    animation-name: green-animation;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-}
 
 /* Hero section */
 
@@ -56,14 +64,6 @@ img {
 /*    background: #1a2;*/
 }
 
-.scroll-or-die {
-    cursor: pointer;
-    
-    animation-name: green-animation;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-}
-
 .scroll-or-die a{
     color: #0a0;
     text-decoration: none;
@@ -73,7 +73,8 @@ img {
 
 .project,
 .project figure,
-.project-title {
+.project-title,
+.main-footer{
     margin: 0.5em;
 }
 
@@ -92,19 +93,23 @@ img {
     left: 0.2em;
 }
 
-.project-info {
+.project-info,
+.main-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.tag-list ul {
+.tag-list ul,
+.main-footer ul{
     list-style: none;
     padding-left: 0;
     margin: 0.5em;
 }
 
-.tag-list li {
+.tag-list li,
+.main-footer li {
     display: inline-block;
 }
 
@@ -119,10 +124,39 @@ img {
 
 .tag:hover{
     cursor: pointer;
-    
-    animation-name: green-animation;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
 }
 
 /*Footer*/
+hr.footer-rule {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 200, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.main-footer {
+    justify-content: space-around;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: #0a0;
+}
+
+.main-footer ul {
+    text-align: center;
+    margin: 0.4em 0 0 0;
+}
+
+.main-footer li {
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+p.copyright {
+    margin: 0.6em;
+    text-align: center;
+}
+
+.footer-div {
+    width: 100%;
+}

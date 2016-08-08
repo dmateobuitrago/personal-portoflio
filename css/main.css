@@ -169,10 +169,19 @@ p.copyright {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    position: relative;
+    position: absolute;
     z-index: 1000;
     text-align: center;
-     color: white;
+    color: white;
+}
+
+.close {
+    transform: translate(0,-250%);
+    transition: transform 0.8s ease; 
+}
+
+.open {
+    transform: translate(0,0);
 }
 
 .overall-column {
@@ -189,4 +198,8 @@ p.copyright {
     top: 0.5em;
     right: 0.5em;
     font-size: 2em;
+}
+
+.contact-type i {
+    color: white;
 }

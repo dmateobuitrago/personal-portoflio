@@ -67,6 +67,11 @@ img {
 /*    background: #1a2;*/
 }
 
+.scroll-or-die:hover {
+    -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
+    animation-play-state: paused;
+}
+
 .scroll-or-die a,
 .main-footer a,
 .overall-content a{

@@ -75,7 +75,7 @@ img {
 .scroll-or-die a,
 .main-footer a,
 .overall-content a{
-    color: #0a0;
+    color: #0a0; /*green*/
     text-decoration: none;
 }
 
@@ -178,6 +178,8 @@ p.copyright {
     z-index: 1000;
     text-align: center;
     color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .close {
@@ -237,12 +239,25 @@ p.place {
 }
 
 p.year {
-    margin-top: 0.25em;
-    font-size: 90%;
+    margin-top: 0.2em;
+    font-size: 75%;
     font-style: italic;
 }
 
 figcaption.project-description {
     color: white;
     text-shadow: 0 0 3px #ddd;
+}
+
+.download-cv a {
+    font-size: 80%;
+    text-align: center;
+}
+
+.contact-type a {
+    color: #fff;
+}
+
+.contact-type .fa {
+    color: #0a0;
 }

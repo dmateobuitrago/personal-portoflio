@@ -111,6 +111,12 @@ img {
     background: linear-gradient(to right, #00bb00 0%,#008800 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bb00', endColorstr='#008800',GradientType=1 ); /* IE6-9 */
     
+    transform: translate(0,0);
+    transition: transform 0.8s ease; 
+}
+
+figcaption.visibility {
+    display: inline-block;
 }
 
 .project-info,
@@ -240,6 +246,7 @@ figcaption{
 
 p.position{
     font-family: "Work Sans", sans-serif;
+    font-weight: 700;
     margin-bottom: 0;
 }
 
@@ -278,12 +285,46 @@ p.year {
     .header-logo img {
         width: 30vw;
     }
+    
+    .hero {
+        padding: 4em;
+    }
 }
 
 /*880px*/
 @media screen and (min-width:880px){
     .header-logo img {
         width: 20vw;
+    }
+    
+    .regular-project {
+        width: calc((100% - 48px)/3); /* 48px because each project article has 8px of margin.*/
+    }
+    
+    .regular-project .project-title {
+        font-weight: 700;
+        font-size: 1em;
+    }
+    
+    .regular-project .project-description,
+    .regular-project li.tag {
+        font-size: 0.8em;
+    }
+    
+    .footer-div {
+        margin: 0;
+        width: 50%;
+    }
+    
+    .cv div:nth-child(2),
+    .cv div:nth-child(3) {
+        width: 50%;
+        text-align: left;
+        padding: 10vw;
+    }
+    
+    .project figcaption.visibility {
+        display: none;
     }
 }
 

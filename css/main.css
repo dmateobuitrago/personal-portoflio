@@ -333,4 +333,16 @@ p.year {
     .header-logo img {
         width: 15vw;
     }
+    
+    section.uppersection,
+    section.hero,
+    section.project-container,
+    footer.main-footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    footer.main-footer {
+        margin-bottom: 10px;
+    }
 }

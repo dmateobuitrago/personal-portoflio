@@ -101,10 +101,16 @@ img {
     position: absolute;
     bottom: 0em;
     color: white;
-    background-color: rgba(0,100,0,0.4);
     padding: 0.2em 1em;
     
     border-top-right-radius: 8px;
+    
+    background: #00bb00; /* Old browsers */
+    background: -moz-linear-gradient(left, #00bb00 0%, #008800 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #00bb00 0%,#008800 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #00bb00 0%,#008800 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bb00', endColorstr='#008800',GradientType=1 ); /* IE6-9 */
+    
 }
 
 .project-info,

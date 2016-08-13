@@ -273,9 +273,23 @@ p.year {
     align-content: space-between;
 }
 
-/*801px*/
-@media screen and (min-width:801px){
-    .regular-project {
-        width: 32%;
+/*630px*/
+@media screen and (min-width:630px){
+    .header-logo img {
+        width: 30vw;
+    }
+}
+
+/*880px*/
+@media screen and (min-width:880px){
+    .header-logo img {
+        width: 20vw;
+    }
+}
+
+/*960px*/
+@media screen and (min-width:960px){
+    .header-logo img {
+        width: 15vw;
     }
 }

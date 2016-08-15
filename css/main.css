@@ -38,7 +38,7 @@ img {
 
 /* Header */
 
-.header-logo img {
+.header-logo {
     width: 40vw;
 }
 
@@ -282,7 +282,7 @@ p.year {
 
 /*630px*/
 @media screen and (min-width:630px){
-    .header-logo img {
+    .header-logo {
         width: 30vw;
     }
     
@@ -293,7 +293,7 @@ p.year {
 
 /*880px*/
 @media screen and (min-width:880px){
-    .header-logo img {
+    .header-logo {
         width: 20vw;
     }
     
@@ -330,7 +330,7 @@ p.year {
 
 /*960px*/
 @media screen and (min-width:960px){
-    .header-logo img {
+    .header-logo {
         width: 15vw;
     }
     

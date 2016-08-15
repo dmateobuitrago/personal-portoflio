@@ -89,7 +89,7 @@ img {
 }
 
 .project {
-    border: 0.5px solid #aaa;
+    border: 1px solid #aaa;
 }
 
 .project figure {
@@ -145,7 +145,7 @@ figcaption.visibility {
     border-radius: 4px;
     content: "Branding";
     color: #0a0;
-    border: 0.5px solid #0f0;
+    border: 1px solid #0f0;
 }
 
 .tag:hover{

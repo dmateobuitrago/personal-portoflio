@@ -173,7 +173,7 @@ hr.footer-rule {
     margin-left: 1em;
 }
 
-p.copyright {
+span.copyright {
     margin: 0.6em;
     text-align: center;
 }
@@ -237,6 +237,7 @@ h3 {
 }
 
 p,
+span,
 a,
 li,
 span, 
@@ -244,18 +245,18 @@ figcaption{
     font-family: "Lora", serif;
 }
 
-p.position{
+span.position{
     font-family: "Work Sans", sans-serif;
     font-weight: 700;
     margin-bottom: 0;
 }
 
-p.place {
+span.place {
     margin-top: 0.3em;
     margin-bottom: 0;
 }
 
-p.year {
+span.year {
     margin-top: 0.2em;
     font-size: 75%;
     font-style: italic;

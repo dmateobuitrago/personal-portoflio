@@ -38,7 +38,8 @@ img {
 
 /* Header */
 
-.header-logo img {
+
+.header-logo {
     width: 40vw;
 }
 
@@ -89,7 +90,7 @@ img {
 }
 
 .project {
-    border: 0.5px solid #aaa;
+    border: 1px solid #aaa;
 }
 
 .project figure {
@@ -145,7 +146,7 @@ figcaption.visibility {
     border-radius: 4px;
     content: "Branding";
     color: #0a0;
-    border: 0.5px solid #0f0;
+    border: 1px solid #0f0;
 }
 
 .tag:hover{
@@ -173,7 +174,8 @@ hr.footer-rule {
     margin-left: 1em;
 }
 
-p.copyright {
+
+span.copyright {
     margin: 0.6em;
     text-align: center;
 }
@@ -237,6 +239,7 @@ h3 {
 }
 
 p,
+span,
 a,
 li,
 span, 
@@ -244,18 +247,18 @@ figcaption{
     font-family: "Lora", serif;
 }
 
-p.position{
+span.position{
     font-family: "Work Sans", sans-serif;
     font-weight: 700;
     margin-bottom: 0;
 }
 
-p.place {
+span.place {
     margin-top: 0.3em;
     margin-bottom: 0;
 }
 
-p.year {
+span.year {
     margin-top: 0.2em;
     font-size: 75%;
     font-style: italic;
@@ -282,7 +285,7 @@ p.year {
 
 /*630px*/
 @media screen and (min-width:630px){
-    .header-logo img {
+    .header-logo {
         width: 30vw;
     }
     
@@ -293,7 +296,7 @@ p.year {
 
 /*880px*/
 @media screen and (min-width:880px){
-    .header-logo img {
+    .header-logo {
         width: 20vw;
     }
     
@@ -330,11 +333,11 @@ p.year {
 
 /*960px*/
 @media screen and (min-width:960px){
-    .header-logo img {
+    .header-logo {
         width: 15vw;
     }
     
-    section.uppersection,
+    header.uppersection,
     section.hero,
     section.project-container,
     footer.main-footer {

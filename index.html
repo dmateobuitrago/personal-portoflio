@@ -5,32 +5,29 @@
         <title>ux/ui designer with front end skills</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animations.css">
         
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Work+Sans:900,700' rel='stylesheet' type='text/css'>
-        
-        <script src="js/jquery-3.1.0.min.js"></script>
-        <script src="js/animations.js"></script>
+
     </head>
     <body>
-        <section class="upper-section">
-            <header class="main-header">
-                <section class="header-logo">
-                    <img src="images/logoMB.svg" alt="Mateo Buitrago logo">
-                </section>
+<!--        <section class="upper-section">-->
+            <header class="upper-section">
+                    <img class="header-logo" src="images/logoMB.svg" alt="Mateo Buitrago logo">
+                <nav class="main-nav">
+                    <ul>
+                        <li class="cv-link">CV</li>
+                        <li class="contact-link">Contact me</li>
+                    </ul>
+                </nav>
             </header>
-            <nav class="main-nav">
-                <ul>
-                    <li class="cv-link">CV</li>
-                    <li class="contact-link">Contact me</li>
-                </ul>
-            </nav>
-        </section>
+<!--        </section>-->
+
         <section class="cv overall-content close">
            <div class="close-overall"><i class="fa fa-times-circle" aria-hidden="true"></i>
            </div>
@@ -38,14 +35,14 @@
                 <h3>Work Experience</h3>
                 <ul>
                     <li>
-                        <p class="position">UI/UX Designer</p>
-                        <p class="place">PappCorn @Bogotá, CO.</p>
-                        <p class="year">Current</p>
+                        <span class="position">UI/UX Designer</span>
+                        <span class="place">PappCorn @Bogotá, CO.</span>
+                        <span class="year">Current</span>
                     </li>
                     <li>
-                        <p class="position">Creative</p>
-                        <p class="place">Multiple ad agencies @Bogotá, CO.</p>
-                        <p class="year">01.2014 - 05.2016</p>
+                        <span class="position">Creative</span>
+                        <span class="place">Multiple ad agencies @Bogotá, CO.</span>
+                        <span class="year">01.2014 - 05.2016</span>
                     </li>
                 </ul>
             </div>
@@ -53,14 +50,14 @@
                 <h3>Education</h3>
                 <ul>
                     <li>
-                        <p class="position">Front-end development nanodegree</p>
-                        <p class="place"><a href="http://www.udacity.com">Udacity</a></p>
-                        <p class="year">Current</p>
+                        <span class="position">Front-end development nanodegree</span>
+                        <span class="place"><a href="http://www.udacity.com">Udacity</a></span>
+                        <span class="year">Current</span>
                     </li>
                     <li>
-                        <p class="position">Graphic Design BA</p>
-                        <p class="place">National University @Bogotá, CO.</p>
-                        <p class="year">2015</p>
+                        <span class="position">Graphic Design BA</span>
+                        <span class="place">National University @Bogotá, CO.</span>
+                        <span class="year">2015</span>
                     </li>
                 </ul>
             </div>
@@ -75,8 +72,8 @@
                 <h3>Contact-me</h3>
                 <ul>
                     <li>
-                        <p class="contact-type"><a href="tel: +573166258396"><i class="fa fa-phone" aria-hidden="true"></i> +57 316 625 8396</a></p>
-                        <p class="contact-type"><a href="mailto: dmateobuitrago@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> dmateobuitrago@gmail.com</a></p>
+                        <span class="contact-type"><a href="tel: +573166258396"><i class="fa fa-phone" aria-hidden="true"></i> +57 316 625 8396</a></span>
+                        <span class="contact-type"><a href="mailto: dmateobuitrago@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> dmateobuitrago@gmail.com</a></span>
                     </li>
                 </ul>
                 
@@ -190,10 +187,13 @@
                 </ul>
             </div>
             <div class="footer-div">
-                <p class="copyright"><small>Made with <a href="#"><i class="fa fa-bolt" aria-hidden="true"></i> by Mateo Buitrago</a></small></p>
+                <span class="copyright"><small>Made with <a href="#"><i class="fa fa-bolt" aria-hidden="true"></i> by Mateo Buitrago</a></small></span>
             </div>
         </footer>
         
-        
+<!--        scripts-->
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/animations.js"></script>
+>>>>>>> master
     </body>
 </html>
